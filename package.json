@@ -12,7 +12,7 @@
   "engines": {
     "atom": ">0.39.0"
   },
-  "readme": "# Hula theme\n\nSyntax theme for seti-ui in Atom\n\n![](https://33acda504924667afc4c-95ab99cbba1f87315d458f4e201677b2.ssl.cf1.rackcdn.com/website/images/hula.png)\n",
+  "readme": "# Hula Theme\n\nSyntax theme for One Dark in Atom\n\n![](https://33acda504924667afc4c-95ab99cbba1f87315d458f4e201677b2.ssl.cf1.rackcdn.com/website/images/hula.png)\n",
   "readmeFilename": "README.md",
   "bugs": {
     "url": "https://github.com/kentakins/hula.atom/issues"

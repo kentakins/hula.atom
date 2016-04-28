@@ -1,6 +1,6 @@
-# hula theme
+# Hula Theme
 
-Syntax theme for seti-ui in Atom.
+Syntax theme for One Dark in Atom.
 
 Based on monokai-seti
 
