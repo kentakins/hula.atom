@@ -3,7 +3,7 @@
   "theme": "syntax",
   "version": "0.7.0",
   "private": true,
-  "description": "theme for the seti ui",
+  "description": "Hula Theme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kentakins/hula.atom.git"
@@ -12,16 +12,16 @@
   "engines": {
     "atom": ">0.39.0"
   },
-  "readme": "# Hula theme\n\nSyntax theme for the seti-ui for Atom.\n\nForked from the atom monokai syntax theme.\n\n![](https://i.imgur.com/xBHmpMA.png)\n",
+  "readme": "# Hula theme\n\nSyntax theme for seti-ui in Atom\n\n![](https://33acda504924667afc4c-95ab99cbba1f87315d458f4e201677b2.ssl.cf1.rackcdn.com/website/images/hula.png)\n",
   "readmeFilename": "README.md",
   "bugs": {
     "url": "https://github.com/kentakins/hula.atom/issues"
   },
   "homepage": "https://github.com/kentakins/hula.atom#readme",
   "_id": "hula@0.7.0",
-  "_shasum": "73a3f8365ee08b38adf047835087e3f65e2cf45b",
-  "_resolved": "file:../d-116010-18890-ji1vp9/package.tgz",
-  "_from": "../d-116010-18890-ji1vp9/package.tgz",
+  "_shasum": "",
+  "_resolved": "",
+  "_from": "",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [],
