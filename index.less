@@ -1,0 +1,179 @@
+@import 'syntax-variables';
+
+.atom-text-editor, :host {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+
+  .invisible-character {
+    color: @syntax-invisible-character-color;
+  }
+
+  .indent-guide {
+    color: @syntax-indent-guide-color;
+  }
+
+  .wrap-guide {
+    background-color: @syntax-wrap-guide-color;
+  }
+
+  .gutter {
+    background-color: @syntax-gutter-background-color;
+
+    .cursor-line {
+      background-color: @syntax-gutter-background-color-selected;
+    }
+  }
+
+  .line-number.cursor-line-no-selection {
+    background-color: @syntax-gutter-background-color-selected;
+  }
+
+  .invisible {
+    color: @syntax-text-color;
+  }
+
+  .cursor {
+    border-color: @syntax-cursor-color;
+  }
+
+  .selection .region {
+    background-color: @syntax-selection-color;
+  }
+
+  .search-results .marker .region {
+    background-color: transparent;
+    border: 1px solid @syntax-result-marker-color;
+  }
+
+  .search-results .marker.current-result .region {
+    border: 1px solid @syntax-result-marker-color-selected;
+  }
+
+  .gfm {
+    .markup {
+      &.heading {
+        color: #afff00;
+      }
+
+      &.underline {
+        color: #E6DB74;
+        text-decoration: underline;
+      }
+    }
+
+    .bold {
+      font-weight: bold;
+    }
+
+    .italic {
+      font-style: italic;
+    }
+
+    .raw {
+      color: #5fd7ff;
+    }
+
+    .variable.list {
+      color: #ff005f;
+    }
+
+    .link {
+      color: #CCC;
+
+      .entity {
+        color: #af87ff;
+      }
+    }
+  }
+}
+
+.comment {
+  color: #808080;
+}
+
+.string {
+  color: #afff00;
+}
+
+.constant.numeric {
+  color: #af87ff;
+}
+
+.constant.language {
+  color: #af87ff;
+}
+
+.constant.character,
+.constant.other {
+  color: #ffffff;
+}
+
+.keyword {
+  color: #ff005f;
+}
+
+.storage {
+  color: #5fd7ff;
+}
+
+.storage.type {
+  color: #ff005f;
+}
+
+.entity.name.class {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+.entity.other.inherited-class {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+.entity.name.function {
+  color: #ffffff;
+}
+
+.entity.name.instance {
+  color: #5fd7ff;
+}
+
+.variable.parameter {
+  color: #bbbbbb;
+}
+
+.entity.name.tag {
+  color: #ff005f;
+}
+
+.entity.other.attribute-name {
+  color: #ffffff;
+}
+
+.support.function {
+  color: #5fd7ff;
+}
+
+.support.constant {
+  color: #5fd7ff;
+}
+
+.support.type,
+.support.class {
+  color: #5fd7ff;
+}
+
+.invalid {
+  color: #F8F8F0;
+  background-color: #ff005f;
+}
+
+.invalid.deprecated {
+  color: #F8F8F0;
+  background-color: #af87ff;
+}
+
+// Jade syntax
+.class.jade {
+  color: #af87ff;
+}
