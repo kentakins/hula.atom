@@ -1,7 +1,7 @@
 {
   "name": "hula",
   "theme": "syntax",
-  "version": "0.7.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Hula Theme",
   "repository": {
@@ -18,7 +18,7 @@
     "url": "https://github.com/kentakins/hula.atom/issues"
   },
   "homepage": "https://github.com/kentakins/hula.atom#readme",
-  "_id": "hula@0.7.0",
+  "_id": "hula@0.1.1",
   "_shasum": "",
   "_resolved": "",
   "_from": "",
